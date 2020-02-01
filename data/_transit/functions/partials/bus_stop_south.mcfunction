@@ -1,16 +1,13 @@
 # ----- DEBUG CLEAR AREA -----
-#fill ~-10 ~3 ~-10 ~10 ~-6 ~10 minecraft:air replace
-
-# TODO: keep active
-# tickingarea add circle ~ ~ ~ "bus stop"
+fill ~-4 ~5 ~-4 ~4 ~0 ~4 minecraft:air hollow
 
 # ----- CAVERN -----
 fill ~-4 ~-2 ~-4 ~4 ~-5 ~4 minecraft:stone hollow
 fill ~-3 ~-2 ~-3 ~3 ~-4 ~3 minecraft:air replace
 
 # cavern lanterns
-fill ~-2 ~-2 ~1 ~-2 ~-2 ~1 minecraft:lantern[hanging=true] replace
-fill ~2 ~-2 ~1 ~2 ~-2 ~1 minecraft:lantern[hanging=true] replace
+setblock ~-2 ~-2 ~1 minecraft:lantern[hanging=true] replace
+setblock ~2 ~-2 ~1 minecraft:lantern[hanging=true] replace
 
 # ----- ROAD/PATH -----
 fill ~-4 ~-1 ~0 ~4 ~-1 ~-4 minecraft:stone replace
