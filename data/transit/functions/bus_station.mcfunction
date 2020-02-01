@@ -4,8 +4,8 @@ fill ~15 ~-3 ~15 ~-15 ~-3 ~-15 minecraft:bedrock replace
 fill ~15 ~-1 ~-6 ~-15 ~-1 ~-1 minecraft:grass_path replace
 
 # objects
-function _transit:partials/bus_awning
-function _transit:partials/bus_2x
+function _transit:partials/bus_awning_south
+function _transit:partials/bus_2x_south
 
 # teleport command block
 setblock ~0 ~0 ~-4 minecraft:command_block replace
