@@ -40,7 +40,7 @@ setblock ~-1 ~-4 ~2 minecraft:smooth_quartz_stairs[facing=south] replace
 
 # command/teleport
 setblock ~-1 ~-5 ~1 minecraft:command_block[facing=north] replace
-data merge block ~-1 ~-5 ~1 {Command:"teleport @p 2 150 2 -180 -15"}
+data merge block ~-1 ~-5 ~1 {Command:"teleport @p[distance=..2] 2 150 2 -180 -15"}
 setblock ~0 ~-4 ~1 minecraft:dark_oak_pressure_plate replace
 setblock ~-1 ~-4 ~1 minecraft:dark_oak_pressure_plate replace
 
@@ -52,7 +52,7 @@ fill ~-2 ~-4 ~-3 ~2 ~-4 ~-3 minecraft:stone replace
 
 # command blocks
 setblock ~-3 ~-5 ~-3 minecraft:command_block[facing=east] replace
-data merge block ~-3 ~-5 ~-3 {Command:"clone ~0 ~0 ~3 ~6 ~3 ~6 ~0 ~4 ~3"}
+data merge block ~-3 ~-5 ~-3 {Command:"execute if entity @p[distance=..7] run clone ~0 ~0 ~3 ~6 ~3 ~6 ~0 ~4 ~3"}
 setblock ~-2 ~-5 ~-3 minecraft:chain_command_block[facing=east] replace
 # data merge block ~-2 ~-5 ~-1 {Command:"fill ~-1 ~4 ~4 ~5 ~4 ~6 minecraft:brown_terracotta replace"}
 

@@ -38,7 +38,7 @@ fill ~-7 ~-6 ~-2 ~-7 ~-1 ~1 minecraft:stone replace
 fill ~-7 ~-5 ~-1 ~-7 ~-2 ~0 minecraft:air replace
 fill ~-7 ~-2 ~-1 ~-7 ~-2 ~0 minecraft:lantern[hanging=true] replace
 setblock ~-7 ~-6 ~-1 minecraft:command_block[facing=west] replace
-data merge block ~-7 ~-6 ~-1 {Command:"teleport @p 2 3 2 0 0"}
+data merge block ~-7 ~-6 ~-1 {Command:"teleport @p[distance=..2] 2 3 2 0 0"}
 fill ~-7 ~-5 ~-1 ~-7 ~-5 ~0 minecraft:stone_pressure_plate replace
 
 # face 8
