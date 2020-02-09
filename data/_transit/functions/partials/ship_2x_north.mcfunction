@@ -1,18 +1,16 @@
 ##### RESET WATER/AIR
-fill ~9 ~-1 ~3 ~-10 ~-5 ~-3 minecraft:water replace
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:white_banner
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:white_wall_banner
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:lantern
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:ladder
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:spruce_pressure_plate
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:birch_pressure_plate
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:light_gray_bed[part=head]
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:white_bed[part=head]
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:birch_door
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:dark_oak_pressure_plate
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:birch_wall_sign
-fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:ladder
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:banners
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:wooden_pressure_plates
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:beds[part=head]
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:beds
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:doors
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace #minecraft:signs
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:lantern
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:ladder
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:torch
+fill ~9 ~-3 ~3 ~-10 ~12 ~-3 minecraft:air replace minecraft:wall_torch
 fill ~9 ~0 ~3 ~-10 ~12 ~-3 minecraft:air replace
+fill ~9 ~-1 ~3 ~-10 ~-5 ~-3 minecraft:water replace
 
 
 ## DEBUG RESET
